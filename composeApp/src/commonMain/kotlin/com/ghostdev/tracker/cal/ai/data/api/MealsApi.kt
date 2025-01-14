@@ -18,7 +18,7 @@ class KtorMealsApi(private val client: HttpClient) : MealsApi {
     override suspend fun getMealNutrients(query: String): FoodResponse {
         return try {
             client.get("$API_URL?query=$query") {
-                header("X-Api-Key", "your_api_key_here")
+                header("X-Api-Key", "VHUZAxJTTJHD0SRn/STJ9A==IilUb3uLmfdJAbCb")
             }.body()
         } catch (e: Exception) {
             println("Error Message: ${e.message}")
