@@ -55,17 +55,7 @@ https://github.com/user-attachments/assets/b399ff71-baf3-4362-b2e6-b9134eadfbac
 - [SQLite KMP](https://developer.android.com/kotlin/multiplatform/sqlite)
 
 
-## 🛠️ Set up 🛠️
- ### API Keys
- 1. Get your API keys:
-    - [Edamam Developer Portal](https://developer.edamam.com/admin/applications)
-    - [CalorieNinjas API Portal](https://calorieninjas.com/api)
-    - Create an account and register your application
-    - Get your Application ID and Application Key
- 2. In the project files navigates to `/Cal/composeApp/src/commonMain/kotlin/com/ghostdev/tracker/cal/ai/data/api`
- 3. Insert your Edemam APP_ID and APP_KEY in the `RecipeAPi` file, and your Calorie Ninja API_KEY in the `MealsApi`
-
-   
+## 🛠️ Set up 🛠️  
 To run this application you would need;
 > **Notice**
 > You would need a Mac with macOS installed to write and run iOS-specific code on simulated or real devices.
