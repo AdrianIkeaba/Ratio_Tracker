@@ -14,6 +14,7 @@ Users can log their create meals, which comprises of various food items that mak
 Tired of having to measure your food before logging?, Ratio allows you to log food for meals just by specifying the size in any context; 'A can of coke', '3 small hard boiled eggs', '3 medium sized cupcakes', while also still being able to specify the size (in grams) if you're feeling picky; '230g of whole wheat bread' and so on.
 Users can as well find great recipes their nutritional information as well as share links to your friends or find out more information about them.
 'Reports' allows users to log their weights and get a comprehensive graph of their weight journey as well.
+Users can also modify their PFC and Calories manually as they see fit.
 
 ## Demo
  ### Android
