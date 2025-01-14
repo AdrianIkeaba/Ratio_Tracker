@@ -14,6 +14,7 @@ Users can log their create meals, which comprises of various food items that mak
 Tired of having to measure your food before logging?, Ratio allows you to log food for meals just by specifying the size in any context; 'A can of coke', '3 small hard boiled eggs', '3 medium sized cupcakes', while also still being able to specify the size (in grams) if you're feeling picky; '230g of whole wheat bread' and so on.
 Users can as well find great recipes their nutritional information as well as share links to your friends or find out more information about them.
 'Reports' allows users to log their weights and get a comprehensive graph of their weight journey as well.
+Users can also modify their PFC and Calories manually as they see fit.
 
 ## Demo
  ### Android
@@ -55,17 +56,7 @@ https://github.com/user-attachments/assets/b399ff71-baf3-4362-b2e6-b9134eadfbac
 - [SQLite KMP](https://developer.android.com/kotlin/multiplatform/sqlite)
 
 
-## 🛠️ Set up 🛠️
- ### API Keys
- 1. Get your API keys:
-    - [Edamam Developer Portal](https://developer.edamam.com/admin/applications)
-    - [CalorieNinjas API Portal](https://calorieninjas.com/api)
-    - Create an account and register your application
-    - Get your Application ID and Application Key
- 2. In the project files navigates to `/Cal/composeApp/src/commonMain/kotlin/com/ghostdev/tracker/cal/ai/data/api`
- 3. Insert your Edemam APP_ID and APP_KEY in the `RecipeAPi` file, and your Calorie Ninja API_KEY in the `MealsApi`
-
-   
+## 🛠️ Set up 🛠️  
 To run this application you would need;
 > **Notice**
 > You would need a Mac with macOS installed to write and run iOS-specific code on simulated or real devices.
