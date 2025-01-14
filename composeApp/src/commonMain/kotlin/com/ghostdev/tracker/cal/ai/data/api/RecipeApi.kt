@@ -13,8 +13,8 @@ interface RecipeApi {
 class KtorRecipeApi(private val client: HttpClient) : RecipeApi {
     companion object {
         private const val API_URL = "https://api.edamam.com/api/recipes/v2"
-        private const val APP_ID = "your_app_id_here"
-        private const val APP_KEY = "your_app_key_here"
+        private const val APP_ID = "be17a675"
+        private const val APP_KEY = "96d4000430b0cac5376b2fa3b2d16d5d"
     }
 
     override suspend fun getRecipe(query: String): RecipeResponse {
