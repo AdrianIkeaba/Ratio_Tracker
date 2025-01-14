@@ -85,12 +85,6 @@ kotlin {
         }
     }
 }
-val localProperties = Properties()
-val localPropertiesFile = rootProject.file("local.properties")
-if (localPropertiesFile.exists()) {
-    localPropertiesFile.inputStream().use { localProperties.load(it) }
-}
-
 android {
     namespace = "com.ghostdev.tracker.ratio.ai"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
@@ -101,10 +95,6 @@ android {
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
         versionName = "1.0"
-
-        buildConfigField("String", "EDAMAM_APP_ID", "\"${localProperties.getProperty("EDAMAM_APP_ID", "")}\"")
-        buildConfigField("String", "EDAMAM_API_KEY", "\"${localProperties.getProperty("EDAMAM_APP_KEY", "")}\"")
-        buildConfigField("String", "CALORIE_NINJA_API_KEY", "\"${localProperties.getProperty("CALORIE_NINJA_API_KEY", "")}\"")
     }
     packaging {
         resources {
@@ -119,9 +109,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
-    }
-    buildFeatures {
-        buildConfig = true
     }
 }
 
