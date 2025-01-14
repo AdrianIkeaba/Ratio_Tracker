@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/a82831aa-e36a-456a-a6f9-b89c672836f5
 
 ### iOS
 
-https://github.com/user-attachments/assets/b399ff71-baf3-4362-b2e6-b9134eadfbac
+https://github.com/user-attachments/assets/d8de809b-aafb-4bb4-860d-31f2efbb3f12
 
 
 
