@@ -1,0 +1,4 @@
+sdk.dir=/Users/username/Library/Android/sdk
+EDAMAM_APP_ID=your_app_id_here
+EDAMAM_APP_KEY=your_app_key_here
+CALORIE_NINJA_API_KEY=your_api_key_here
