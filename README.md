@@ -70,7 +70,7 @@ To run this application you would need;
 ### Getting things ready.
 - Clone this repo:
   ```shell
-    https://github.com/AdrianIkeaba/Ratio_Tracker
+    git clone https://github.com/AdrianIkeaba/Ratio_Tracker
   ```
 
 ### Android
